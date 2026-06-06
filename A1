@@ -1,0 +1,26 @@
+git init 						- Initialize a Git repository
+git branch                  				- Show available branches
+git config --global user.name "Name"      		- Set Git username
+git config --global user.email "Email"    		- Set Git email
+git config --list           				- View Git configuration
+git remote add origin URL  				- Add GitHub repository URL
+git remote -v              				- View remote repositories
+git add <file_name>       				- Add a specific file
+git add .                 				- Add all files
+git status             					- Check repository status
+git commit -m "message"  				- Commit changes with a message
+git push                   				- Push files to GitHub
+git push -u origin master 				- First push and set upstream branch
+git pull                  				- Pull latest changes from GitHub
+git clone URL            				- Download repository from GitHub
+git log                  				- View commit history
+git log --oneline        				- View short commit history
+git restore <file_name>   				- Restore file changes
+git reset HEAD <file_name> 				- Unstage a file
+git fetch                 				- Fetch changes from remote repository
+git merge <branch_name>    				- Merge a branch into current branch
+git checkout <branch_name> 				- Switch to another branch
+git checkout -b <branch>  				- Create and switch to a new branch
+git branch -d <branch>     				- Delete a branch
+git revert <log id>					- revert version
+git diff 						- showing whats the changes in file 
